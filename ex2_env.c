@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     }
     const char *val = getenv(argv[1]);
     if (!val) {
-        fprintf(stderr, "Erreur: la variable d'environnement \"%s\" n'existe pas.\n", argv[1]);
+        fprintf(stderr, "Erreur: la variable d'environnement \"%s\" n'existe pas :(\n", argv[1]);
         return 1;
     }
     puts(val);
